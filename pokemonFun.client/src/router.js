@@ -12,9 +12,9 @@ const routes = [
     component: loadPage('HomePage')
   },
   {
-    path: '/about',
-    name: 'About',
-    component: loadPage('AboutPage')
+    path: '/pokemon/:id',
+    name: 'Pokemon',
+    component: loadPage('PokemonPage')
   },
   {
     path: '/account',

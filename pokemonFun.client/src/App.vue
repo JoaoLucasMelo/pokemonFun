@@ -1,15 +1,9 @@
 <template>
-  <header>
-    <Navbar />
-  </header>
+  <header></header>
   <main>
     <router-view />
   </main>
-  <footer>
-    <div class="bg-dark text-light text-center p-4">
-      Made with 💖 by CodeWorks
-    </div>
-  </footer>
+  <footer></footer>
 </template>
 
 <script>
@@ -26,5 +20,6 @@ export default {
 </script>
 <style lang="scss">
 @import "./assets/scss/main.scss";
-
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
 </style>
